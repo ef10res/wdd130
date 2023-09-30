@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Yantramanav:wght@300&display=swap');
+
+:root {
+    --primary-color: #ECEBE4;
+    --secondary-color: #153B50;
+    --accent1-color: #CC998D;
+    --accent2-color: #429EA6;
+
+    --heading-font: 'Confortaa', serif;
+    --paragraph-font: 'Yantramanav' serif;
+
+    --nav-background-color: #153B50;
+    --nav-link-color: #ECEBE4;
+    --nav-hover-link-color: #429EA6;
+    --nav-hover-background-color: #CC998D;
+}
+
+body {
+    max-width: 960px;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font), serif;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font), serif;
+    color: var(--accent2-color);
+}
+
+a img {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero article > img{
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: abslute;
+    background-color: rgb(138,43,226, 0.2);
+}
