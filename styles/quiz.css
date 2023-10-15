@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap');
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    display: grid;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: navy;
+}
+
+fieldset {
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+}
+
+div {
+    margin: 1rem;
+    display: grid;
+}
+
+label {
+    font-family: 'Montserrat';
+    color: darkblue;
+}
