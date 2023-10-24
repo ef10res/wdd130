@@ -149,3 +149,23 @@ button {
     width: 60px;
     text-align: center;
 }
+
+.adventure {
+    position: relative;
+}
+
+.bottom {
+    position: relative;
+    z-index: -1;
+}
+
+#tripsflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.adventure td {
+    width: 150px;
+    padding: 1.2rem;
+    margin: 1.1rem;
+}
