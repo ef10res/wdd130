@@ -150,13 +150,9 @@ button {
     text-align: center;
 }
 
-.adventure {
-    position: relative;
-}
-
 .bottom {
-    position: relative;
-    z-index: -1;
+    position: fixed;
+    bottom: 0;
 }
 
 #tripsflex {
@@ -168,4 +164,8 @@ button {
     width: 150px;
     padding: 1.2rem;
     margin: 1.1rem;
+}
+
+.tabletop {
+    text-align: center;
 }
