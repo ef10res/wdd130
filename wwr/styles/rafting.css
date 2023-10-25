@@ -169,3 +169,7 @@ button {
 .tabletop {
     text-align: center;
 }
+
+.tablehead {
+    font-size: larger;
+}
